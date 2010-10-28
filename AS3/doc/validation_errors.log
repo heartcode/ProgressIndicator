@@ -1,0 +1,9 @@
+Text for description in com.greensock.plugins:EndVectorPlugin is not valid.
+org.xml.sax.SAXParseException: The element type "Number" must be terminated by the matching end-tag "</Number>".
+
+Text for description in com.greensock.motionPaths:MotionPath/renderObjectAt is not valid.
+org.xml.sax.SAXParseException: The end-tag for element type "cod" must end with a '>' delimiter.
+
+Text for description in com.greensock.motionPaths:Circle2D/renderObjectAt is not valid.
+org.xml.sax.SAXParseException: The end-tag for element type "cod" must end with a '>' delimiter.
+
