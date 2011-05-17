@@ -47,7 +47,11 @@ Also, you can add any filters to it to make it cooler.
 
 ## Credits
 
+<<<<<<< .merge_file_a03768
 ProgressIndicator was created by Robert Pataki.
+=======
+	ProgressIndicator was created by Robert Pataki.
+>>>>>>> .merge_file_a06896
 
 ## License
 
