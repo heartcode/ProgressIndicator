@@ -4,16 +4,19 @@
 I built it from scratch and tried to make it as CPU and memory efficient and easy to use as possible.
 
 **You can use the tool to**
+
 * give user feedback on form data submission process
 * display it until you load something which doesn't require a proper 'percentage' preloader
 * add to your existing (real) preloader
 * display any other sort of preload or time process you like
 
 **AS3 Compatible players:**
+
 * Adobe Flash Player 9 or higher
 * Adobe AIR Player 1.1 or higher
 
 **AS2 Compatible players:**
+
 * Adobe Flash Player 7 or higher
 * Adobe FlashLite Player 2.0 or higher
 * Adobe AIR Player 1.1 or higher
@@ -46,20 +49,11 @@ Also, you can add any filters to it to make it cooler.
 	preloader_mc._y = Stage.height * 0.5;
 
 ## Credits
-
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_a03768
 ProgressIndicator was created by Robert Pataki.
-=======
-	ProgressIndicator was created by Robert Pataki.
->>>>>>> .merge_file_a06896
 
->>>>>>> b70590e6eade577536411a926087ea4eb49f7db0
 ## License
 
 **(The MIT License)**
-
 
 Copyright (c) 2010-2011 Robert Pataki heartcode@robertpataki.com;
 
