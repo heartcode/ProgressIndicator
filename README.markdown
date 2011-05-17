@@ -47,8 +47,13 @@ Also, you can add any filters to it to make it cooler.
 	preloader_mc.filters = [new GlowFilter(0x00ffff, 0.6, 8, 8, 2, 2), new BlurFilter(2, 2, 2)];
 	preloader_mc._x = Stage.width * 0.5;
 	preloader_mc._y = Stage.height * 0.5;
+	
+
+**If you don't know where to start see the HeartCode_QuickStartGuide_ProgressIndicator.pdf file for some help.**
+	
 
 ## Credits
+
 ProgressIndicator was created by Robert Pataki.
 
 ## License
