@@ -1,21 +1,22 @@
 # AS2/3 progress indicator class
 
-This is a simple progress indicator class which can draw different pre-defined shapes arranged in a circle.
+**ProgressIndicator** is a simple progress indicator class which can draw different pre-defined shapes arranged in a circle.
+I built it from scratch and tried to make it as CPU and memory efficient and easy to use as possible.
 
 **You can use the tool to**
-> give user feedback on form data submission process
-> display it until you load something which doesn't require a proper 'percentage' preloader
-> add to your existing (real) preloader
-> display any other sort of preload or time process you like
+* give user feedback on form data submission process
+* display it until you load something which doesn't require a proper 'percentage' preloader
+* add to your existing (real) preloader
+* display any other sort of preload or time process you like
 
 **AS3 Compatible players:**
-> Adobe Flash Player 9 or higher
-> Adobe AIR Player 1.1 or higher
+* Adobe Flash Player 9 or higher
+* Adobe AIR Player 1.1 or higher
 
 **AS2 Compatible players:**
-> Adobe Flash Player 7 or higher
-> Adobe FlashLite Player 2.0 or higher
-> Adobe AIR Player 1.1 or higher
+* Adobe Flash Player 7 or higher
+* Adobe FlashLite Player 2.0 or higher
+* Adobe AIR Player 1.1 or higher
 
 ## Flexibility
 
@@ -25,23 +26,28 @@ Also, you can add any filters to it to make it cooler.
 ## Usage
 
 **AS3 (default indicator):**
-import com.robertpataki.heartcode.ProgressIndicator;
+	
+	import com.robertpataki.heartcode.ProgressIndicator;
 
-var preloader_sp:ProgressIndicator = new ProgressIndicator();
-preloader_sp.name = "preloader_sp";
-addChild(preloader_sp);
-preloader_sp.x = stage.stageWidth * 0.5;
-preloader_sp.y = stage.stageHeight * 0.5;
+	var preloader_sp:ProgressIndicator = new ProgressIndicator();
+	preloader_sp.name = "preloader_sp";
+	addChild(preloader_sp);
+	preloader_sp.x = stage.stageWidth * 0.5;
+	preloader_sp.y = stage.stageHeight * 0.5;
 
-**AS2 (custom indicator):
-import com.robertpataki.heartcode.ProgressIndicator;
-import flash.filters.BlurFilter;
+**AS2 (custom indicator):**
+	
+	import com.robertpataki.heartcode.ProgressIndicator;
+	import flash.filters.BlurFilter;
 
-new ProgressIndicator(this, "preloader_mc", ProgressIndicator.SHAPE_CIRCLE, 40, 1, 0x00ffff, 12, 0.03, true);
-preloader_mc.filters = [new GlowFilter(0x00ffff, 0.6, 8, 8, 2, 2), new BlurFilter(2, 2, 2)];
-preloader_mc._x = Stage.width * 0.5;
-preloader_mc._y = Stage.height * 0.5;
+	new ProgressIndicator(this, "preloader_mc", ProgressIndicator.SHAPE_CIRCLE, 40, 1, 0x00ffff, 12, 0.03, true);
+	preloader_mc.filters = [new GlowFilter(0x00ffff, 0.6, 8, 8, 2, 2), new BlurFilter(2, 2, 2)];
+	preloader_mc._x = Stage.width * 0.5;
+	preloader_mc._y = Stage.height * 0.5;
 
+## Credits
+
+	ProgressIndicator was created by Robert Pataki.
 
 ## License
 
