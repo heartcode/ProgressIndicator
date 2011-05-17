@@ -47,8 +47,6 @@ Also, you can add any filters to it to make it cooler.
 
 ## Credits
 
-ProgressIndicator was created by Robert Pataki.
-
 ## License
 
 **(The MIT License)**
