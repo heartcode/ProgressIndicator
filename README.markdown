@@ -28,7 +28,9 @@ Also, you can add any filters to it to make it cooler.
 
 ## Usage
 
-**AS3 (default indicator):**
+**AS3:**
+	
+If the constructor is called without any parameters passed it creates an auto-generated indicator.	
 	
 	import com.robertpataki.heartcode.ProgressIndicator;
 
@@ -37,11 +39,36 @@ Also, you can add any filters to it to make it cooler.
 	addChild(preloader_sp);
 	preloader_sp.x = stage.stageWidth * 0.5;
 	preloader_sp.y = stage.stageHeight * 0.5;
-
-**AS2 (custom indicator):**
+	
+	
+The indicator can be customized by passing parameters to the constructor.
 	
 	import com.robertpataki.heartcode.ProgressIndicator;
 	import flash.filters.BlurFilter;
+	import flash.filters.GlowFilter;
+	
+	var preloader_sp:ProgressIndicator = new ProgressIndicator(ProgressIndicator.SHAPE_CIRCLE, 40, 1, 0x00ffff, 12, 0.03, true);
+	preloader_sp.name = "preloader_sp";
+	addChild(preloader_sp);
+	
+	preloader_sp.filters = [new GlowFilter(0x00ffff, 0.6, 8, 8, 2, 2), new BlurFilter(2, 2, 2)];
+	preloader_sp.x = stage.stageWidth * 0.5;
+	preloader_sp.y = stage.stageHeight * 0.5;
+	
+**AS2:**
+	
+If the constructor is called without any parameters passed it creates an auto-generated indicator and places it on the stage.
+	
+	import com.robertpataki.heartcode.ProgressIndicator;
+
+	new ProgressIndicator();
+	
+	
+The indicator can be customized by passing parameters to the constructor.
+	
+	import com.robertpataki.heartcode.ProgressIndicator;
+	import flash.filters.BlurFilter;
+	import flash.filters.GlowFilter;
 
 	new ProgressIndicator(this, "preloader_mc", ProgressIndicator.SHAPE_CIRCLE, 40, 1, 0x00ffff, 12, 0.03, true);
 	preloader_mc.filters = [new GlowFilter(0x00ffff, 0.6, 8, 8, 2, 2), new BlurFilter(2, 2, 2)];
@@ -51,7 +78,6 @@ Also, you can add any filters to it to make it cooler.
 
 **If you don't know where to start see the HeartCode_QuickStartGuide_ProgressIndicator.pdf file for some help.**
 	
-
 ## Credits
 
 ProgressIndicator was created by Robert Pataki.
