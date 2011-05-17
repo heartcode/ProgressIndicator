@@ -49,6 +49,7 @@ Also, you can add any filters to it to make it cooler.
 	preloader_mc._y = Stage.height * 0.5;
 
 ## Credits
+
 ProgressIndicator was created by Robert Pataki.
 
 ## License
