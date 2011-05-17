@@ -53,6 +53,7 @@ ProgressIndicator was created by Robert Pataki.
 
 **(The MIT License)**
 
+
 Copyright (c) 2010-2011 Robert Pataki heartcode@robertpataki.com;
 
 Permission is hereby granted, free of charge, to any person obtaining
